@@ -7,7 +7,7 @@ export default function Login() {
             <div className="loginLeft">
                 <h3 className="loginLogo">Azjargalsocial</h3>
                 <span className="loginDesc">
-                Connect with friends and the world around you on Narangoosocial.
+                Connect with friends and the world around you on Azjargalsocial.
                 </span>
             </div>
             <div className="loginRight"></div>
