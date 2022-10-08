@@ -1,6 +1,7 @@
 import "./post.css"
 import {MoreVert} from "@mui/icons-material"
 import { useState } from "react"
+import {Users} from "../../dummyData"
 
 export default function Post({post}) {
 

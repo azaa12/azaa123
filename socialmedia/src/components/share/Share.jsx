@@ -1,4 +1,5 @@
 import "./share.css"
+import {PermMedia,Label,Room,EmojiEmotions} from "@mui/icons-material"
 
 export default function Share() {
   return (
@@ -29,7 +30,7 @@ export default function Share() {
                     </div>
                 </div>
                 <button className="shareButton">Share</button>
-            </div>
+          </div>
       </div>
     </div>
   )

@@ -2,6 +2,7 @@ import "./home.css"
 import Rightbar from '../../components/rightbar/Rightbar'
 import Sidebar from '../../components/sidebar/Sidebar'
 import Topbar from '../../components/topbar/Topbar'
+import Feed from "../../components/online/feed/Feed"
 
 export default function Home() {
   return (
