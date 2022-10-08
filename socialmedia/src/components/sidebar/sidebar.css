@@ -46,3 +46,8 @@
 .sidebarHr{
     margin: 20px 0;
 }
+.sidebarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}

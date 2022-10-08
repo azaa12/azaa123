@@ -1,4 +1,6 @@
 import "./sidebar.css"
+import {RssFeed,PlayCircleOutline,Group,Bookmark,HelpOutline,WorkOutline,Event,School} from "@mui/icons-material"
+
 
 export default function Sidebar() {
   return (
@@ -40,7 +42,9 @@ export default function Sidebar() {
           <button className="sidebarButton">Show More</button>
           <hr className="sidebarHr"/>
           <ul className="sidebarFriendList">
-            
+          {Users.map((u)=>(
+              <CloseFriend key={u.id} user={u}/>
+            ))}
           </ul>
         </ul>
       </div>
