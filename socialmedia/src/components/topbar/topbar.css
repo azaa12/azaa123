@@ -22,3 +22,48 @@
 .topbarCenter{
     flex: 5;
 }
+
+.searchbar{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon{
+    font-style: 20px !important;
+    margin-left: 10px;
+}
+
+.searchInput{
+    border: none;
+    width: 70%;
+}
+.searchInput:focus{
+    outline:none;
+}
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.topbarLinks{
+    margin-left: 10px;
+    font-style: 14px;
+    cursor: pointer;
+}
+
+.topbarIcon{
+    display: flex;
+}
+
+.topbarIconItems{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
