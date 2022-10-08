@@ -39,7 +39,10 @@ export default function Sidebar() {
           </li>
           <button className="sidebarButton">Show More</button>
           <hr className="sidebarHr"/>
+          <ul className="sidebarFriendList">
+            
           </ul>
+        </ul>
       </div>
     </div>
   )
