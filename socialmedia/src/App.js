@@ -5,7 +5,7 @@ import Profile from './pages/profile/Profile';
 
 
 function App() {
-  return <Register />
+  return <Home />
 }
 
 export default App;
