@@ -1,11 +1,11 @@
 import "./topbar.css"
 import {Search,Person,Chat,Notifications} from "@mui/icons-material"
 
-export default function Topbar() {
+export default function Topbar({gadnaashuleejavchbaigaaproperty, a}) {
   return (
     <div  className="topbarContainer">
             <div className="topbarLeft">
-              <span className="logo">Azaasocial</span>
+              <span className="logo">{gadnaashuleejavchbaigaaproperty}</span>
             </div>
             <div className="topbarCenter">
               <div className="searchbar">

@@ -19,8 +19,8 @@ export default function Home() {
  
   return (
     <>
-    <p>{datas && JSON.stringify(datas.data[9].sumduud[3])}; </p>
-      <Topbar />
+    <p>{datas && JSON.stringify(datas.data[9].sumduud[2].sumname)}; </p>
+      <Topbar PROPERTYNEREEYUGEJNERLEHEEMEDEHGUIOBVAINAAAA = {datas && datas.data[9].sumduud[2].sumname} hoyordahipropertygoobasyugejnerleheemedehguibaiona = {1} />
       <div className="homeContainer">
         <Sidebar />
         <Feed />
