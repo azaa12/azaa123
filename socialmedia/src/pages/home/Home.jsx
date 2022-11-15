@@ -1,4 +1,4 @@
-import "./home.css";
+  import "./home.css";
 import Rightbar from "../../components/rightbar/Rightbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Topbar from "../../components/topbar/Topbar";
@@ -10,7 +10,7 @@ export default function Home() {
   const [datas, setDatas] = useState();
   useEffect(() => {
     const bodyChiglel = {
-      action: "chiglel",
+      action: "aimagsum",
     };
 
     sendRequest(urlLookup, bodyChiglel).then((data) => setDatas(data));
@@ -19,7 +19,7 @@ export default function Home() {
  
   return (
     <>
-    <p>{datas && JSON.stringify(datas)}</p>
+    <p>{datas && JSON.stringify(datas.data[9].sumduud[3])}; </p>
       <Topbar />
       <div className="homeContainer">
         <Sidebar />
